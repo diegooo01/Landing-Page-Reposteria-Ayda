@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  
+  /* we map the existing gold classes to the elegant dessert rose pink variation to ensure no layout features are broken */
+  --color-gold: #D25D7E;
+  --color-gold-light: #FCE7EC;
+  
+  /* Pink direct names for clean reference */
+  --color-rose: #D25D7E;
+  --color-rose-light: #FCE7EC;
+  --color-rose-dark: #4A1521;
+}
+
+/* Custom smooth scrolling and light confectionery branding */
+html {
+  scroll-behavior: smooth;
+  background-color: #FAF4EC; /* Soft warm non-shining matte cream background */
+  color: #171513; /* High-contrast Luxury Deep Charcoal text defaults */
+}
+
+/* Elegant scrollbar matching the Sophisticated Sweet style */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #FAF4EC;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #f4f4f5; /* zinc-100 */
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #D25D7E; /* Elegant Rose Pink */
+}
+
+

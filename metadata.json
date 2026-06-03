@@ -1,0 +1,6 @@
+{
+  "name": "Ayda Peruvian Desserts",
+  "description": "Artisanal desserts website for Ayda - Pedacito de Cielo, showcasing traditional chocotejas and Peruvian confections in English and Spanish with video background.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
